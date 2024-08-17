@@ -1,7 +1,7 @@
 ## Steps to run this project after forking and open the MyTodoApp folder in VScode.
 Step-1: Create database using MySQL client or workbench.(Note: please use your username and password)
 
- ```Find script.sql file in Backend directory and run that script.```
+ ```Find script.sql file in Backend directory and run that script in MySQL client or workbench.```
  
 Step-2: Run the development server of NextJs:
 
