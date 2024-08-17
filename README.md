@@ -1,6 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+## Steps to run this project after forking and open the MyTodoApp folder in VScode.
 
 First, run the development server:
 
@@ -8,29 +6,28 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
+Second, run the backend server.
+```bash
+cd backend
+node index.js
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## About
 
-## Learn More
+#Todo List Application: Features-
 
-To learn more about Next.js, take a look at the following resources:
+Create Tasks: Add new todo items with titles and descriptions.
+Read Tasks: View a list of all tasks, including their current status (completed or not).
+Update Tasks: Edit the title and description of existing todo items.
+Delete Tasks: Remove tasks from the list when they are no longer needed.
+Checkbox: Mark tasks as completed with a checkbox.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#Technical Stack:
+Frontend: Next.js – A React framework providing server-side rendering and static site generation.
+Backend: Node.js – A JavaScript runtime for building scalable network applications.
+Database: MySQL – A relational database for storing and managing todo items.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This application is a practical example of full-stack development, demonstrating the integration between a React frontend and a Node.js backend with a MySQL database.
